@@ -9,6 +9,14 @@
 - 支持获取锁和释放锁时出错的策略配置。
 
 2. 使用方法
+引入依赖
+```xml
+<dependency>
+    <groupId>yout.component</groupId>
+    <artifactId>java-component-pgextend</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
 首先配置 Redis 环境，在 application.xml 中添加相关配置：
 ```yaml
 yout:
