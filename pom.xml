@@ -7,7 +7,7 @@
     <description>分布式锁插件</description>
 
     <artifactId>java-component-dlock</artifactId>
-    <groupId>yout-component</groupId>
+    <groupId>yout.component</groupId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
