@@ -29,4 +29,4 @@ public void doSomething(String queueName, BaseTask taskBean) {
 yout.component.dlock.annotation.DLock
 ```
 3. 注意事项
-由于基于注解的分布式锁实现逻辑是使用反向代理调用目标方法，所以与 @Async等注解一样，不能在同一个类中调用目标方法，否则不会生效。
+由于基于注解的分布式锁实现逻辑是使用反向代理调用目标方法，所以与 @Async 等注解一样，不能在同一个类中调用目标方法，否则不会生效。
